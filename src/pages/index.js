@@ -14,6 +14,9 @@ export default function Home() {
   return (
     <div>
       <p>{hello}</p>
+      <a href="#" ping="/.netlify/functions/track">
+        Polysharp
+      </a>
       <button type="button" onClick={() => fetchHello()}>
         Hello ?
       </button>
